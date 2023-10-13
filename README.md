@@ -2,6 +2,12 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Workout Tracker
 
+An app which tracks your weight training exercises, # of sets, # of reps, and weight.
+All data is saved locally on your device.
+
+No accounts, no ads, no payment.
+No supersets, no settings, no data concerns.
+
 > **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
