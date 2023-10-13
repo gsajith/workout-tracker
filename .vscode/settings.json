@@ -1,0 +1,22 @@
+// Workspace settings
+{
+  "files.exclude": {
+    "ios/": true,
+    "android/": true,
+    "vendor/": true,
+    ".bundle/": true,
+    "__tests__/": true,
+    "package-lock.json": true,
+    "yarn.lock": true,
+    "Gemfile.lock": true,
+    ".watchmanconfig": true,
+    ".gitignore": true,
+    ".prettierrc.js": true,
+    ".eslintrc.js": true,
+    "babel.config.js": true,
+    "Gemfile": true,
+    "jest.config.js": true,
+    "metro.config.js": true,
+    "tsconfig.json": true
+  }
+}
