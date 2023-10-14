@@ -12,7 +12,7 @@
     ".watchmanconfig": true,
     ".gitignore": true,
     ".prettierrc.js": true,
-    ".eslintrc.js": true,
+    // ".eslintrc.js": true,
     "babel.config.js": true,
     "Gemfile": true,
     "jest.config.js": true,

@@ -10,6 +10,25 @@ const ThemeContext = createContext({
   setNewTheme: (_: any) => {},
 });
 
+type Theme = {
+  background: string;
+  background2: string;
+  text: string;
+};
+
+export const THEMES: {[key: string]: Theme} = {
+  light: {
+    background: '#ffffff',
+    background2: '#eeeeee',
+    text: '#000000',
+  },
+  dark: {
+    background: '#1a1a1a',
+    background2: '#303030',
+    text: '#ffffff',
+  },
+};
+
 export const ThemeProvider = ({children}: any) => {
   const [theme, setTheme] = useState(DEFAULT_THEME);
 
